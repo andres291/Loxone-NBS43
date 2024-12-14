@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ControlList Version="249" LxAV="73" NextObj="21924" NextConst="1" NextNote="1" NextMem="27">
-	<C Type="Document" V="15021014" U="15ea0aa3-0372-39b9-ffffed57184a04d2" Title="Schmalfuß" ConfigVersion="15021014" PaperFormat="2" SPSfreq="100" OpenIsHigh="false" Date="2024-12-14 07:02:50" CDate="" BDate="" DateS="503388170" Street="Niederbarnimstraße 43" Town="Glienicke- Nordbahn" PostCode="16548" Ctry="DE" Latitude="52.637" Longitude="13.324" SL="51" Logo="" uuidNotifications="15ea0aa3-0371-39b5-ffffed57184a04d2" uuidFavSeq="15ea0aa3-0371-39b7-ffffed57184a04d2" uuidFavCol="15ea0aa3-0371-39b8-ffffed57184a04d2" FC="hsv(25,96,50);hsv(24,95,80);hsv(337,94,50);hsv(240,100,34);hsv(312,85,74);temp(44,4142)" uuidTime="15ea0aa3-0371-39b6-ffffed57184a04d2" UnitPrecipitation="1" Currency="€" UpdTime="120" AUE="true" CrashL="true" Geo="3" NumO="1783" APPKEY="DC600135EF4BE464BB23965F9251B00D" APPID="48217A">
+<ControlList Version="249" LxAV="73" NextObj="21975" NextConst="1" NextNote="1" NextMem="27">
+	<C Type="Document" V="15021014" U="15ea0aa3-0372-39b9-ffffed57184a04d2" Title="Schmalfuß" ConfigVersion="15021014" PaperFormat="2" SPSfreq="100" OpenIsHigh="false" Date="2024-12-14 07:05:40" CDate="" BDate="" DateS="503388340" Street="Niederbarnimstraße 43" Town="Glienicke- Nordbahn" PostCode="16548" Ctry="DE" Latitude="52.637" Longitude="13.324" SL="51" Logo="" uuidNotifications="15ea0aa3-0371-39b5-ffffed57184a04d2" uuidFavSeq="15ea0aa3-0371-39b7-ffffed57184a04d2" uuidFavCol="15ea0aa3-0371-39b8-ffffed57184a04d2" FC="hsv(25,96,50);hsv(24,95,80);hsv(337,94,50);hsv(240,100,34);hsv(312,85,74);temp(44,4142)" uuidTime="15ea0aa3-0371-39b6-ffffed57184a04d2" UnitPrecipitation="1" Currency="€" UpdTime="120" AUE="true" CrashL="true" Geo="3" NumO="1784" APPKEY="DC600135EF4BE464BB23965F9251B00D" APPID="48217A">
 		<HP H="" Sc="-2" S="WGpiqX5LbyaIrGD1MuWTTyrxvlVqUpqf" Alg="1"/>
 		<C Type="LoxCaption" V="171" U="15ea0aa3-038c-39bb-ffffed57184a04d2" Title="Symbole" Cl="0,0,0" WF="16384" CaptionType="5" SubType="5"/>
 		<C Type="CategoryCaption" V="171" U="15ea0aa3-03bc-39c3-ffffed57184a04d2" Title="Kategorien" WF="16384">
@@ -795,7 +795,18 @@
 			<IoData Visu="true"/>
 		</C>
 		<C Type="AutoPilot" V="171" U="15ea0aa4-0206-3a35-ffffed57184a04d2" Title="Automatik-Regeln" Cl="0,0,0" Nio="2" WF="20480" SpStates="15ea0aa4-0206-3a31-ffffed57184a04d2,15ea0aa4-0206-3a32-ffffed57184a04d2">
-			<Co K="Input" U="15ea0aa4-0206-3a33-ffffed57184a04d2"/>
+			<Co K="Input" Nc="10" U="15ea0aa4-0206-3a33-ffffed57184a04d2">
+				<In Input="1cddc0a2-0115-e048-01ff9e93d98e0936" Hidden="true"/>
+				<In Input="1c9fe96e-025b-3aa2-28ff299ab54d3905" Hidden="true"/>
+				<In Input="1dc08fcb-037d-ff81-00ff1faa96d7f42f" Hidden="true"/>
+				<In Input="15ea0aa4-01d0-3a25-ffffed57184a04d2" Hidden="true"/>
+				<In Input="15ea0aa4-01df-3a28-ffffed57184a04d2" Hidden="true"/>
+				<In Input="1cf8a2dd-0256-e443-05ffb325c1c328eb" Hidden="true"/>
+				<In Input="1ce2451e-00ba-261c-01fff6968f8c8d8d" Hidden="true"/>
+				<In Input="1c9fe96d-01d5-3175-01ff1b1bd623b1d4" Hidden="true"/>
+				<In Input="1db098d4-018c-4268-01ff9d31fdb33009" Hidden="true"/>
+				<In Input="15ea0aa4-0093-39e3-ffffed57184a04d2" Hidden="true"/>
+			</Co>
 			<Co K="output" U="15ea0aa4-0206-3a34-ffffed57184a04d2"/>
 		</C>
 		<C Type="LoxLIVE" V="171" U="15ea0aa5-0148-3cbb-ffffed57184a04d2" Title="MS Schmalfuß" WF="16400" Miniserver="2" CycleUserProt="-1" SwitchBoardRow="2" SwitchBoardPos="1" ExtensionBlinkNum="2" ExtAddr="dns.loxonecloud.com" IntAddr="192.168.178.200" IntAddr6="" ExP="80" ExP2="443" Pause="10" RxTimeout="1000" BaseID="-1" Serial="504F94A22679" Installation="" SwitchBoard="Schaltschrank" HwVersion="-8192" RefAS="00000000-0000-0000-0000000000000000" HoN="MSSchmalfuss">
@@ -5297,18 +5308,6 @@
 					<Co K="OutputAPI" U="1cddc80c-0067-32ec-2fff1d65056e45b7"/>
 					<IoData Visu="true" Cr="15ea0aa4-024e-3a7e-ffffed57184a04d2" Pr="15ea0aa5-0145-3c85-ffffed57184a04d2"/>
 				</C>
-				<C Type="OutputRef" V="171" U="1cddc821-0057-6ebb-ffffed57184a04d2" Title="Akustisches Klick-Signal" Cl="238,238,238" Nio="2" Ref="1c9ed60d-003d-e69e-ffff504f94a22679" WF="20480" LinkRefType="184">
-					<Co K="AI" Nc="1" U="1cddc821-0057-6eb9-00ffe1eaa32ce27a">
-						<In Input="1cddc80c-0067-32df-22ff1d65056e45b7" Hidden="true"/>
-					</Co>
-					<Co K="AQ" U="1cddc821-0057-6eba-01ffe1eaa32ce27a"/>
-				</C>
-				<C Type="OutputRef" V="171" U="1cddc821-0057-6ec1-ffffed57184a04d2" Title="Akustisches Klick-Signal" Cl="238,238,238" Nio="2" Ref="1c9ed641-0116-f2fa-ffff504f94a22679" WF="20480" LinkRefType="184">
-					<Co K="AI" Nc="1" U="1cddc821-0057-6ebf-00ffe1eaa32ce27a">
-						<In Input="1cddc80c-0067-32df-22ff1d65056e45b7" Hidden="true"/>
-					</Co>
-					<Co K="AQ" U="1cddc821-0057-6ec0-01ffe1eaa32ce27a"/>
-				</C>
 				<C Type="OutputRef" V="171" U="1cddc821-0056-6e37-ffffed57184a04d2" Title="Akustisches Klick-Signal" Cl="238,238,238" Nio="2" Ref="1c9fd72d-01d0-67bc-ffff504f94a22679" WF="20480" LinkRefType="174">
 					<Co K="AI" Nc="1" U="1cddc821-0056-6e35-00ffe1eaa32ce27a">
 						<In Input="1cddc80c-0067-32df-22ff1d65056e45b7" Hidden="true"/>
@@ -5404,6 +5403,18 @@
 						<In Input="1cddc80c-0067-32df-22ff1d65056e45b7" Hidden="true"/>
 					</Co>
 					<Co K="AQ" U="1cddc821-0057-6eb4-01ffe1eaa32ce27a"/>
+				</C>
+				<C Type="OutputRef" V="171" U="1cddc821-0057-6ebb-ffffed57184a04d2" Title="Akustisches Klick-Signal" Cl="238,238,238" Nio="2" Ref="1c9ed60d-003d-e69e-ffff504f94a22679" WF="20480" LinkRefType="184">
+					<Co K="AI" Nc="1" U="1cddc821-0057-6eb9-00ffe1eaa32ce27a">
+						<In Input="1cddc80c-0067-32df-22ff1d65056e45b7" Hidden="true"/>
+					</Co>
+					<Co K="AQ" U="1cddc821-0057-6eba-01ffe1eaa32ce27a"/>
+				</C>
+				<C Type="OutputRef" V="171" U="1cddc821-0057-6ec1-ffffed57184a04d2" Title="Akustisches Klick-Signal" Cl="238,238,238" Nio="2" Ref="1c9ed641-0116-f2fa-ffff504f94a22679" WF="20480" LinkRefType="184">
+					<Co K="AI" Nc="1" U="1cddc821-0057-6ebf-00ffe1eaa32ce27a">
+						<In Input="1cddc80c-0067-32df-22ff1d65056e45b7" Hidden="true"/>
+					</Co>
+					<Co K="AQ" U="1cddc821-0057-6ec0-01ffe1eaa32ce27a"/>
 				</C>
 			</C>
 			<C Type="Page" V="171" U="1ce6eabc-0087-1d9b-ffffed57184a04d2" Title="Ansagen" LtE="484895431" WF="16384">
@@ -5872,7 +5883,7 @@
 					</Co>
 					<Co K="InputDisable" U="1c9fe96e-03c7-3cc5-16ffdb7074516db2"/>
 					<Co K="Presence" Nc="1" U="1c9fe96e-03c7-3cc6-17ffdb7074516db2">
-						<In Input="1c9fe96e-03c6-3c63-0affdb7074516db2" CF="true"/>
+						<In Input="1e01186a-032b-cd10-02ff5b259a723634"/>
 					</Co>
 					<Co K="RtD" U="1c9fe96e-03c7-3cc7-18ffdb7074516db2"/>
 					<Co K="MasterBr" U="1c9fe96e-03c7-3cc8-19ffdb7074516db2"/>
@@ -5945,7 +5956,7 @@
 					<HCL T="4" M="0" TMIN="2700" TMAX="6500" FROM="24496" TO="67968"/>
 					<COHist TRK_NE="20" TRK_MAX="100"/>
 				</C>
-				<C Type="HeatIRoomController2" V="171" U="1c9fe96e-03e5-3d90-ffffed57184a04d2" Title="Intelligente Raumregelung" Px="5952" Py="576" Px2="8640" Py2="2208" Cl="247,181,92" Nio="55" WF="16384" UUIDTimer="1c9fe96e-03e5-3d50-ffff57e72b377f91" SourceCap="37" Objects="1c9fe970-02ce-4a33-ffffed57184a04d2" PrioH="0" Cap="5" ExT="3" SpStates="1c9fe96e-03e5-3d51-ffff57e72b377f91,1c9fe96e-03e5-3d52-ffff57e72b377f91,1c9fe96e-03e5-3d53-ffff57e72b377f91,1c9fe96e-03e5-3d54-ffff57e72b377f91,1c9fe96e-03e5-3d55-ffff57e72b377f91,1c9fe96e-03e5-3d56-ffff57e72b377f91,1c9fe96e-03e5-3d57-ffff57e72b377f91,1c9fe96e-03e5-3d58-ffff57e72b377f91,1c9fe96e-03e5-3d59-ffff57e72b377f91,1c9fe96e-03e5-3d5a-ffff57e72b377f91,1c9fe96e-03e5-3d5b-ffff57e72b377f91,1c9fe96e-03e5-3d5c-ffff57e72b377f91,1c9fe96e-03e5-3d5d-ffff57e72b377f91,1c9fe96e-03e5-3d5e-ffff57e72b377f91,1c9fe96e-03e5-3d5f-ffff57e72b377f91" custRU="" custRI="" srcName="Klima Controller">
+				<C Type="HeatIRoomController2" V="171" U="1c9fe96e-03e5-3d90-ffffed57184a04d2" Title="Intelligente Raumregelung" Px="5952" Py="576" Px2="8640" Py2="2208" Cl="247,181,92" Nio="55" UUIDTimer="1c9fe96e-03e5-3d50-ffff57e72b377f91" SourceCap="37" Objects="1c9fe970-02ce-4a33-ffffed57184a04d2" PrioH="0" Cap="5" ExT="3" SpStates="1c9fe96e-03e5-3d51-ffff57e72b377f91,1c9fe96e-03e5-3d52-ffff57e72b377f91,1c9fe96e-03e5-3d53-ffff57e72b377f91,1c9fe96e-03e5-3d54-ffff57e72b377f91,1c9fe96e-03e5-3d55-ffff57e72b377f91,1c9fe96e-03e5-3d56-ffff57e72b377f91,1c9fe96e-03e5-3d57-ffff57e72b377f91,1c9fe96e-03e5-3d58-ffff57e72b377f91,1c9fe96e-03e5-3d59-ffff57e72b377f91,1c9fe96e-03e5-3d5a-ffff57e72b377f91,1c9fe96e-03e5-3d5b-ffff57e72b377f91,1c9fe96e-03e5-3d5c-ffff57e72b377f91,1c9fe96e-03e5-3d5d-ffff57e72b377f91,1c9fe96e-03e5-3d5e-ffff57e72b377f91,1c9fe96e-03e5-3d5f-ffff57e72b377f91" custRU="" custRI="" srcName="Klima Controller">
 					<Co K="AMode" U="1c9fe96e-03e5-3d60-00ff57e72b377f91"/>
 					<Co K="Input" U="1c9fe96e-03e5-3d61-01ff57e72b377f91"/>
 					<Co K="Temp" Nc="1" U="1c9fe96e-03e5-3d62-02ff57e72b377f91">
@@ -6275,17 +6286,14 @@ für die Beschattung (Opd &amp; Cld) ein und vergeben Sie einen Namen." Td="true
 					<PSD As="-2" Ae="1380" Amin="1" Amax="4" Dmin="30" Dmax="180" V="20"/>
 					<Display Type="1" Unit="&lt;v.1&gt;"/>
 				</C>
-				<C Type="OutputRef" V="171" U="1c9fe96f-007c-3e36-ffffed57184a04d2" Title="Rollo Arbeit 1 links" Px="9600" Py="12768" Px2="11712" Py2="12960" Cl="238,238,238" Nio="2" Ref="1c9eca94-03b6-5b41-ffff504f94a22679" WF="147456" LinkRefType="63">
-					<Co K="AI" Nc="1" U="1c9fe96f-007c-3e34-00ff64d94b34a9ec">
-						<In Input="1c9fe96f-000c-3dd9-26ff64d94b34a9ec"/>
+				<C Type="And" V="171" U="1e01186a-032b-cd11-ffffed57184a04d2" Title="O21924" Px="3840" Py="3744" Px2="5184" Py2="4416" Cl="105,195,80" Nio="3">
+					<Co K="I1" Nc="1" U="1e01186a-032b-cd0e-00ff5b259a723634">
+						<In Input="1c9fe96e-03c6-3c63-0affdb7074516db2" CF="true"/>
 					</Co>
-					<Co K="AQ" U="1c9fe96f-007c-3e35-01ff64d94b34a9ec"/>
-				</C>
-				<C Type="OutputRef" V="171" U="1c9fe96f-0080-3e3b-ffffed57184a04d2" Title="Rollo Arbeit 1 links" Px="9600" Py="12960" Px2="11712" Py2="13152" Cl="238,238,238" Nio="2" Ref="1c9eca94-03b7-5b44-ffff504f94a22679" WF="147456" LinkRefType="63">
-					<Co K="AI" Nc="1" U="1c9fe96f-0080-3e39-00ff64d94b34a9ec">
-						<In Input="1c9fe96f-000c-3dda-27ff64d94b34a9ec"/>
+					<Co K="I2" Inv="true" Nc="1" U="1e01186a-032b-cd0f-01ff5b259a723634">
+						<In Input="1de41810-0333-ac62-05ff13c23ca88675" CF="true"/>
 					</Co>
-					<Co K="AQ" U="1c9fe96f-0080-3e3a-01ff64d94b34a9ec"/>
+					<Co K="Q" U="1e01186a-032b-cd10-02ff5b259a723634"/>
 				</C>
 				<C Type="OutputRef" V="171" U="1c9fe96f-0084-3e40-ffffed57184a04d2" Title="Rollo Arbeit 1 rechts" Px="9600" Py="11520" Px2="11712" Py2="11712" Cl="238,238,238" Nio="2" Ref="1c9eca94-03b7-5b47-ffff504f94a22679" WF="147456" LinkRefType="63">
 					<Co K="AI" Nc="1" U="1c9fe96f-0084-3e3e-00ff64d94b34a9ec">
@@ -6341,6 +6349,18 @@ für die Beschattung (Opd &amp; Cld) ein und vergeben Sie einen Namen." Td="true
 						<In Input="1d1ae8e4-0336-cc38-05ff0ff33ceee2db"/>
 					</Co>
 					<Co K="AQ" U="1d48a76e-0043-3797-01ff3e90ded926b3"/>
+				</C>
+				<C Type="OutputRef" V="171" U="1c9fe96f-007c-3e36-ffffed57184a04d2" Title="Rollo Arbeit 1 links" Px="9600" Py="12768" Px2="11712" Py2="12960" Cl="238,238,238" Nio="2" Ref="1c9eca94-03b6-5b41-ffff504f94a22679" WF="147456" LinkRefType="63">
+					<Co K="AI" Nc="1" U="1c9fe96f-007c-3e34-00ff64d94b34a9ec">
+						<In Input="1c9fe96f-000c-3dd9-26ff64d94b34a9ec"/>
+					</Co>
+					<Co K="AQ" U="1c9fe96f-007c-3e35-01ff64d94b34a9ec"/>
+				</C>
+				<C Type="OutputRef" V="171" U="1c9fe96f-0080-3e3b-ffffed57184a04d2" Title="Rollo Arbeit 1 links" Px="9600" Py="12960" Px2="11712" Py2="13152" Cl="238,238,238" Nio="2" Ref="1c9eca94-03b7-5b44-ffff504f94a22679" WF="147456" LinkRefType="63">
+					<Co K="AI" Nc="1" U="1c9fe96f-0080-3e39-00ff64d94b34a9ec">
+						<In Input="1c9fe96f-000c-3dda-27ff64d94b34a9ec"/>
+					</Co>
+					<Co K="AQ" U="1c9fe96f-0080-3e3a-01ff64d94b34a9ec"/>
 				</C>
 			</C>
 			<C Type="Page" V="171" U="1c9fe970-0108-45ef-ffffed57184a04d2" Title="Arbeitszimmer 2" WF="16384">
@@ -6792,18 +6812,6 @@ für die Beschattung (Opd &amp; Cld) ein und vergeben Sie einen Namen." Td="true
 					<IoData Cr="15ea0aa4-024c-3a72-ffffed57184a04d2" Pr="1c9ed1c6-0376-9f1a-ffffed57184a04d2"/>
 					<Display Unit="&lt;v.1&gt;"/>
 				</C>
-				<C Type="OutputRef" V="171" U="1d1a9778-0334-7248-ffffed57184a04d2" Title="AndrePC" Px="7392" Py="10368" Px2="9504" Py2="10560" Cl="238,238,238" Nio="2" Ref="1d1a9768-02ab-2da3-ffffed57184a04d2" WF="16384" LinkRefType="74">
-					<Co K="AI" Nc="1" U="1d1a9778-0334-7246-00ff785a9200645f">
-						<In Input="1d1a969d-0104-2e22-04ff71c103d70047"/>
-					</Co>
-					<Co K="AQ" U="1d1a9778-0334-7247-01ff785a9200645f"/>
-				</C>
-				<C Type="OutputRef" V="171" U="1c9fe970-014c-4743-ffffed57184a04d2" Title="Stell Arbeit 2" Px="9600" Py="2880" Px2="11712" Py2="3072" Cl="238,238,238" Nio="2" Ref="1c9ecad2-0390-5bbf-ffff504f94a22679" WF="147456" LinkRefType="63">
-					<Co K="AI" Nc="1" U="1c9fe970-014c-4741-00ff4546c6a80f24">
-						<In Input="1c9fe970-0141-471b-20ff3855a5abe5c9"/>
-					</Co>
-					<Co K="AQ" U="1c9fe970-014c-4742-01ff4546c6a80f24"/>
-				</C>
 				<C Type="OutputRef" V="171" U="1c9fe970-0153-4781-ffffed57184a04d2" Title="Rollo Arbeit 2" Px="9600" Py="1056" Px2="11712" Py2="1248" Cl="238,238,238" Nio="2" Ref="1c9eca94-03b6-5b3b-ffff504f94a22679" WF="147456" LinkRefType="63">
 					<Co K="AI" Nc="1" U="1c9fe970-0153-477f-00ff4546c6a80f24">
 						<In Input="1c9fe970-0153-4774-26ff4546c6a80f24"/>
@@ -6833,6 +6841,18 @@ für die Beschattung (Opd &amp; Cld) ein und vergeben Sie einen Namen." Td="true
 						<In Input="1c9fe970-011c-4679-2fffa1faaeca7e34"/>
 					</Co>
 					<Co K="AQ" U="1c9fe970-012e-46b1-01ffa1faaeca7e34"/>
+				</C>
+				<C Type="OutputRef" V="171" U="1d1a9778-0334-7248-ffffed57184a04d2" Title="AndrePC" Px="7392" Py="10368" Px2="9504" Py2="10560" Cl="238,238,238" Nio="2" Ref="1d1a9768-02ab-2da3-ffffed57184a04d2" WF="16384" LinkRefType="74">
+					<Co K="AI" Nc="1" U="1d1a9778-0334-7246-00ff785a9200645f">
+						<In Input="1d1a969d-0104-2e22-04ff71c103d70047"/>
+					</Co>
+					<Co K="AQ" U="1d1a9778-0334-7247-01ff785a9200645f"/>
+				</C>
+				<C Type="OutputRef" V="171" U="1c9fe970-014c-4743-ffffed57184a04d2" Title="Stell Arbeit 2" Px="9600" Py="2880" Px2="11712" Py2="3072" Cl="238,238,238" Nio="2" Ref="1c9ecad2-0390-5bbf-ffff504f94a22679" WF="147456" LinkRefType="63">
+					<Co K="AI" Nc="1" U="1c9fe970-014c-4741-00ff4546c6a80f24">
+						<In Input="1c9fe970-0141-471b-20ff3855a5abe5c9"/>
+					</Co>
+					<Co K="AQ" U="1c9fe970-014c-4742-01ff4546c6a80f24"/>
 				</C>
 			</C>
 			<C Type="Page" V="171" U="1c9fe96f-034c-434b-ffffed57184a04d2" Title="Außenbereich" WF="16384">
@@ -7842,18 +7862,6 @@ Verbinden Sie den Türöffner mit dem Ausgang O1" Td="true"/>
 					<PSD As="-2" Ae="1380" Amin="1" Amax="4" Dmin="30" Dmax="180" V="20"/>
 					<Display Type="1" Unit="&lt;v.1&gt;"/>
 				</C>
-				<C Type="OutputRef" V="171" U="1c9fe96f-037c-4420-ffffed57184a04d2" Title="Spots DK links" Px="9600" Py="9600" Px2="11712" Py2="9792" Cl="238,238,238" Nio="2" Ref="1c9fe0f2-01be-103c-ffff504f94a22679" WF="16384" Analog="true" LinkRefType="185">
-					<Co K="AI" Nc="1" U="1c9fe96f-037c-441e-00ff49dc0eea7040">
-						<In Input="1cddccdb-01fa-d647-2fff75ad38b4dcbe"/>
-					</Co>
-					<Co K="AQ" U="1c9fe96f-037c-441f-01ff49dc0eea7040"/>
-				</C>
-				<C Type="OutputRef" V="171" U="1d6576d7-0014-23b6-ffffed57184a04d2" Title="Sonnenschein" Px="19392" Py="9984" Px2="21504" Py2="10176" Cl="238,238,238" Nio="2" Ref="15ea0aa5-0148-3ca9-ffffed57184a04d2" WF="16384" LinkRefType="307">
-					<Co K="AI" Nc="1" U="1d6576d7-0014-23b4-00ffb6283bbb46f6">
-						<In Input="1d3e79a1-0238-0a6a-05ffafe2c9013fc5"/>
-					</Co>
-					<Co K="AQ" U="1d6576d7-0014-23b5-01ffb6283bbb46f6"/>
-				</C>
 				<C Type="OutputRef" V="171" U="1c9feac2-0234-31a5-ffffed57184a04d2" Title="Spots DK Eingang" Px="9600" Py="11904" Px2="11712" Py2="12096" Cl="238,238,238" Nio="2" Ref="1c9fe0ec-0261-0955-ffff504f94a22679" WF="147456" Analog="true" LinkRefType="185">
 					<Co K="AI" Nc="1" U="1c9feac2-0234-31a3-00ff4de5c329241d">
 						<In Input="1c9fe96f-0361-43d6-30ff49dc0eea7040"/>
@@ -7907,6 +7915,18 @@ Verbinden Sie den Türöffner mit dem Ausgang O1" Td="true"/>
 						<In Input="1cddcd37-02fb-62b6-2fffef5169d910c8"/>
 					</Co>
 					<Co K="AQ" U="1c9feab9-03ad-809e-01ffc8b873cf87a9"/>
+				</C>
+				<C Type="OutputRef" V="171" U="1c9fe96f-037c-4420-ffffed57184a04d2" Title="Spots DK links" Px="9600" Py="9600" Px2="11712" Py2="9792" Cl="238,238,238" Nio="2" Ref="1c9fe0f2-01be-103c-ffff504f94a22679" WF="16384" Analog="true" LinkRefType="185">
+					<Co K="AI" Nc="1" U="1c9fe96f-037c-441e-00ff49dc0eea7040">
+						<In Input="1cddccdb-01fa-d647-2fff75ad38b4dcbe"/>
+					</Co>
+					<Co K="AQ" U="1c9fe96f-037c-441f-01ff49dc0eea7040"/>
+				</C>
+				<C Type="OutputRef" V="171" U="1d6576d7-0014-23b6-ffffed57184a04d2" Title="Sonnenschein" Px="19392" Py="9984" Px2="21504" Py2="10176" Cl="238,238,238" Nio="2" Ref="15ea0aa5-0148-3ca9-ffffed57184a04d2" WF="16384" LinkRefType="307">
+					<Co K="AI" Nc="1" U="1d6576d7-0014-23b4-00ffb6283bbb46f6">
+						<In Input="1d3e79a1-0238-0a6a-05ffafe2c9013fc5"/>
+					</Co>
+					<Co K="AQ" U="1d6576d7-0014-23b5-01ffb6283bbb46f6"/>
 				</C>
 			</C>
 			<C Type="Page" V="171" U="1d852bf4-00ab-4ea7-ffffed57184a04d2" Title="Außenbereich 2" WF="16384">
@@ -8243,7 +8263,7 @@ Verbinden Sie den Türöffner mit dem Ausgang O1" Td="true"/>
 					</Co>
 					<Co K="Q" U="1de41df9-029f-f57f-01ff6065f4e003d6"/>
 				</C>
-				<C Type="PushButton" V="171" U="1de41810-0333-ac66-ffffed57184a04d2" Title="Gast" Px="1344" Py="960" Px2="4032" Py2="2208" Cl="29,176,217" Nio="9" WF="131072" SpStates="1de41e62-026b-36bf-ffffed57184a04d2,1de41e62-026b-36c0-ffffed57184a04d2,1de41e62-026b-36c1-ffffed57184a04d2">
+				<C Type="PushButton" V="171" U="1de41810-0333-ac66-ffffed57184a04d2" Title="Gast" Px="1344" Py="960" Px2="4032" Py2="2208" Cl="29,176,217" Nio="9" SpStates="1de41e62-026b-36bf-ffffed57184a04d2,1de41e62-026b-36c0-ffffed57184a04d2,1de41e62-026b-36c1-ffffed57184a04d2">
 					<Co K="InputTrigger" U="1de41810-0333-ac5d-00ff13c23ca88675"/>
 					<Co K="Reset" U="1de41810-0333-ac5e-01ff13c23ca88675"/>
 					<Co K="On" U="1de41810-0333-ac5f-02ff13c23ca88675"/>
@@ -8966,18 +8986,6 @@ für die Beschattung (Opd &amp; Cld) ein und vergeben Sie einen Namen." Td="true
 					<IoData Cr="15ea0aa4-024c-3a72-ffffed57184a04d2" Pr="15ea0aa5-0128-3bcb-ffffed57184a04d2"/>
 					<Display Unit="&lt;v.1&gt;"/>
 				</C>
-				<C Type="OutputRef" V="171" U="1c9fe96e-011b-38b6-ffffed57184a04d2" Title="Rollo Bad" Px="9600" Py="1248" Px2="11712" Py2="1440" Cl="238,238,238" Nio="2" Ref="1c9eca83-017c-5b22-ffff504f94a22679" WF="147456" LinkRefType="63">
-					<Co K="AI" Nc="1" U="1c9fe96e-011b-38b4-00fff140e431cde2">
-						<In Input="1c9fe96e-011b-38aa-27fff140e431cde2"/>
-					</Co>
-					<Co K="AQ" U="1c9fe96e-011b-38b5-01fff140e431cde2"/>
-				</C>
-				<C Type="OutputRef" V="171" U="1c9fe96e-00f2-379b-ffffed57184a04d2" Title="Lampe Wand Bad" Px="9600" Py="6720" Px2="11712" Py2="6912" Cl="238,238,238" Nio="2" Ref="1c9ecad2-0391-5bda-ffff504f94a22679" WF="147456" LinkRefType="63">
-					<Co K="AI" Nc="1" U="1c9fe96e-00f2-3799-00ffc18e2c70b660">
-						<In Input="1c9fe96e-00d9-3754-31ffc18e2c70b660"/>
-					</Co>
-					<Co K="AQ" U="1c9fe96e-00f2-379a-01ffc18e2c70b660"/>
-				</C>
 				<C Type="OutputRef" V="171" U="1c9fe96e-010f-3864-ffffed57184a04d2" Title="LS Bad" Px="9600" Py="2880" Px2="11712" Py2="3072" Cl="238,238,238" Nio="2" Ref="1c9ec9bc-0258-57b9-ffffed57184a04d2" WF="147456" Analog="true" LinkRefType="216">
 					<Co K="AI" Nc="1" U="1c9fe96e-010f-3862-00fff140e431cde2">
 						<In Input="1c9fe96e-010e-3855-20fff140e431cde2"/>
@@ -9032,6 +9040,18 @@ für die Beschattung (Opd &amp; Cld) ein und vergeben Sie einen Namen." Td="true
 						<In Input="1c9fe96e-011b-38a9-26fff140e431cde2"/>
 					</Co>
 					<Co K="AQ" U="1c9fe96e-0166-38bc-01fff140e431cde2"/>
+				</C>
+				<C Type="OutputRef" V="171" U="1c9fe96e-011b-38b6-ffffed57184a04d2" Title="Rollo Bad" Px="9600" Py="1248" Px2="11712" Py2="1440" Cl="238,238,238" Nio="2" Ref="1c9eca83-017c-5b22-ffff504f94a22679" WF="147456" LinkRefType="63">
+					<Co K="AI" Nc="1" U="1c9fe96e-011b-38b4-00fff140e431cde2">
+						<In Input="1c9fe96e-011b-38aa-27fff140e431cde2"/>
+					</Co>
+					<Co K="AQ" U="1c9fe96e-011b-38b5-01fff140e431cde2"/>
+				</C>
+				<C Type="OutputRef" V="171" U="1c9fe96e-00f2-379b-ffffed57184a04d2" Title="Lampe Wand Bad" Px="9600" Py="6720" Px2="11712" Py2="6912" Cl="238,238,238" Nio="2" Ref="1c9ecad2-0391-5bda-ffff504f94a22679" WF="147456" LinkRefType="63">
+					<Co K="AI" Nc="1" U="1c9fe96e-00f2-3799-00ffc18e2c70b660">
+						<In Input="1c9fe96e-00d9-3754-31ffc18e2c70b660"/>
+					</Co>
+					<Co K="AQ" U="1c9fe96e-00f2-379a-01ffc18e2c70b660"/>
 				</C>
 			</C>
 			<C Type="Page" V="171" U="1c9fe96f-01e0-40bc-ffffed57184a04d2" Title="Dachboden" WF="16384">
@@ -9444,6 +9464,12 @@ für die Beschattung (Opd &amp; Cld) ein und vergeben Sie einen Namen." Td="true
 					<Co K="TimeOff" Def="10" U="1d4a614c-036d-ed93-ffff0712f23dc659"/>
 					<Co K="Q" U="1d4a614c-036d-ed94-ffff0712f23dc659"/>
 				</C>
+				<C Type="OutputRef" V="171" U="1d4524c4-031e-37aa-ffffed57184a04d2" Title="Start ausgewähltes Programm" Px="14400" Py="4704" Px2="16512" Py2="4896" Cl="238,238,238" Nio="2" Ref="1d452376-01ad-4c96-ffffed57184a04d2" WF="16384" LinkRefType="229">
+					<Co K="AI" Nc="1" U="1d4524c4-031e-37a8-00ffe0be927d7a7b">
+						<In Input="1d4a612c-01dd-9892-05ff4759c6865c08"/>
+					</Co>
+					<Co K="AQ" U="1d4524c4-031e-37a9-01ffe0be927d7a7b"/>
+				</C>
 				<C Type="OutputRef" V="171" U="1d475876-0239-d733-ffffed57184a04d2" Title="Start Auto 45-65°" Px="11904" Py="4800" Px2="14016" Py2="4992" Cl="238,238,238" Nio="2" Ref="1d452376-01ad-4c8d-ffffed57184a04d2" WF="16384" LinkRefType="229">
 					<Co K="AI" Nc="2" U="1d475876-0239-d731-00ff58b7c4d1009d">
 						<In Input="1d489e34-00bf-807f-ffffc278838fd3fd"/>
@@ -9457,12 +9483,6 @@ für die Beschattung (Opd &amp; Cld) ein und vergeben Sie einen Namen." Td="true
 						<In Input="1d489c6d-004b-f4d6-03ff254698b78640"/>
 					</Co>
 					<Co K="AQ" U="1d489fd1-032f-e62c-01ff232e4b233d7a"/>
-				</C>
-				<C Type="OutputRef" V="171" U="1d4524c4-031e-37aa-ffffed57184a04d2" Title="Start ausgewähltes Programm" Px="14400" Py="4704" Px2="16512" Py2="4896" Cl="238,238,238" Nio="2" Ref="1d452376-01ad-4c96-ffffed57184a04d2" WF="16384" LinkRefType="229">
-					<Co K="AI" Nc="1" U="1d4524c4-031e-37a8-00ffe0be927d7a7b">
-						<In Input="1d4a612c-01dd-9892-05ff4759c6865c08"/>
-					</Co>
-					<Co K="AQ" U="1d4524c4-031e-37a9-01ffe0be927d7a7b"/>
 				</C>
 			</C>
 			<C Type="Page" V="171" U="1c9fe96f-0194-3fe5-ffffed57184a04d2" Title="Esszimmer" WF="16384">
@@ -9783,6 +9803,12 @@ Bitte konfigurieren Sie die Lautstärkeschwellen der Präsenzmelder" Td="true"/>
 					<IoData Cr="15ea0aa4-024c-3a72-ffffed57184a04d2" Pr="15ea0aa5-0138-3c33-ffffed57184a04d2"/>
 					<Display Unit="&lt;v.1&gt;"/>
 				</C>
+				<C Type="OutputRef" V="171" U="1c9fe96f-01d6-40b6-ffffed57184a04d2" Title="Lampe Essen" Px="5664" Py="864" Px2="7776" Py2="1056" Cl="238,238,238" Nio="2" Ref="1c9ecad2-0391-5bd1-ffff504f94a22679" WF="16384" LinkRefType="63">
+					<Co K="AI" Nc="1" U="1c9fe96f-01d6-40b4-00ffa90d3a19f8d8">
+						<In Input="1d49f71d-0302-f78b-05ffa1118ca9d533"/>
+					</Co>
+					<Co K="AQ" U="1c9fe96f-01d6-40b5-01ffa90d3a19f8d8"/>
+				</C>
 				<C Type="OutputRef" V="171" U="1cfc8b88-0388-d8ec-ffffed57184a04d2" Title="Nachlaufzeit Präsenz" Cl="238,238,238" Nio="2" Ref="1c9fd61e-00de-4f21-ffff504f94a22679" WF="20480" Analog="true" LinkRefType="175">
 					<Co K="AI" Nc="1" U="1cfc8b88-0388-d8ea-00ff5a0fd3d512fe">
 						<In Input="1c9fe96f-01a5-3ffa-10ffa90d3a19f8d8" Hidden="true"/>
@@ -9794,12 +9820,6 @@ Bitte konfigurieren Sie die Lautstärkeschwellen der Präsenzmelder" Td="true"/>
 						<In Input="1c9fe96f-01a5-3ffb-11ffa90d3a19f8d8" Hidden="true"/>
 					</Co>
 					<Co K="AQ" U="1cfc8b88-0388-d8f1-01ff5a0fd3d512fe"/>
-				</C>
-				<C Type="OutputRef" V="171" U="1c9fe96f-01d6-40b6-ffffed57184a04d2" Title="Lampe Essen" Px="5664" Py="864" Px2="7776" Py2="1056" Cl="238,238,238" Nio="2" Ref="1c9ecad2-0391-5bd1-ffff504f94a22679" WF="16384" LinkRefType="63">
-					<Co K="AI" Nc="1" U="1c9fe96f-01d6-40b4-00ffa90d3a19f8d8">
-						<In Input="1d49f71d-0302-f78b-05ffa1118ca9d533"/>
-					</Co>
-					<Co K="AQ" U="1c9fe96f-01d6-40b5-01ffa90d3a19f8d8"/>
 				</C>
 			</C>
 			<C Type="Page" V="171" U="1c9fe96f-023e-4156-ffffed57184a04d2" Title="Flur" WF="16384">
@@ -10245,18 +10265,6 @@ Bitte konfigurieren Sie die Lautstärkeschwellen der Präsenzmelder" Td="true"/>
 				<C Type="Text" V="171" U="1c9fe96f-0300-42dc-ffffed57184a04d2" Title="To-do" Px="1152" Py="7200" Px2="4569" Py2="7788" Cl="255,200,100" WF="16384" Text="Auto-Konfiguration
 Überprüfen Sie ob der korrekte
 Temperatursensor angeschlossen wurde" Td="true"/>
-				<C Type="OutputRef" V="171" U="1c9fe96f-0301-4312-ffffed57184a04d2" Title="LS Flur" Px="9600" Py="3552" Px2="11712" Py2="3744" Cl="238,238,238" Nio="2" Ref="1c9ec9bc-0258-57bc-ffffed57184a04d2" WF="147456" Analog="true" LinkRefType="216">
-					<Co K="AI" Nc="1" U="1c9fe96f-0301-4310-00ff2834795dcaac">
-						<In Input="1c9fe96f-0301-4303-20ff2834795dcaac"/>
-					</Co>
-					<Co K="AQ" U="1c9fe96f-0301-4311-01ff2834795dcaac"/>
-				</C>
-				<C Type="OutputRef" V="171" U="1c9fe96f-029b-424b-ffffed57184a04d2" Title="Orientierungslicht" Px="8064" Py="1056" Px2="10176" Py2="1248" Cl="238,238,238" Nio="2" Ref="1c9ed58c-0008-bb7e-ffff504f94a22679" WF="147456" LinkRefType="184">
-					<Co K="AI" Nc="1" U="1c9fe96f-029b-4249-00ffd7a6efa3c8c7">
-						<In Input="1c9fe96f-026f-41f9-31ffd7a6efa3c8c7"/>
-					</Co>
-					<Co K="AQ" U="1c9fe96f-029b-424a-01ffd7a6efa3c8c7"/>
-				</C>
 				<C Type="OutputRef" V="171" U="1c9fe96f-02a2-4278-ffffed57184a04d2" Title="Orientierungslicht" Px="8064" Py="864" Px2="10176" Py2="1056" Cl="238,238,238" Nio="2" Ref="1c9ed5a0-0275-c7da-ffff504f94a22679" WF="147456" LinkRefType="184">
 					<Co K="AI" Nc="1" U="1c9fe96f-02a2-4276-00ffd7a6efa3c8c7">
 						<In Input="1c9fe96f-026f-41f9-31ffd7a6efa3c8c7"/>
@@ -10286,6 +10294,18 @@ Temperatursensor angeschlossen wurde" Td="true"/>
 						<In Input="1c9fe96f-02ad-42b0-20ff1b42585f9f51"/>
 					</Co>
 					<Co K="AQ" U="1c9fe96f-02b7-42d7-01ff2834795dcaac"/>
+				</C>
+				<C Type="OutputRef" V="171" U="1c9fe96f-0301-4312-ffffed57184a04d2" Title="LS Flur" Px="9600" Py="3552" Px2="11712" Py2="3744" Cl="238,238,238" Nio="2" Ref="1c9ec9bc-0258-57bc-ffffed57184a04d2" WF="147456" Analog="true" LinkRefType="216">
+					<Co K="AI" Nc="1" U="1c9fe96f-0301-4310-00ff2834795dcaac">
+						<In Input="1c9fe96f-0301-4303-20ff2834795dcaac"/>
+					</Co>
+					<Co K="AQ" U="1c9fe96f-0301-4311-01ff2834795dcaac"/>
+				</C>
+				<C Type="OutputRef" V="171" U="1c9fe96f-029b-424b-ffffed57184a04d2" Title="Orientierungslicht" Px="8064" Py="1056" Px2="10176" Py2="1248" Cl="238,238,238" Nio="2" Ref="1c9ed58c-0008-bb7e-ffff504f94a22679" WF="147456" LinkRefType="184">
+					<Co K="AI" Nc="1" U="1c9fe96f-029b-4249-00ffd7a6efa3c8c7">
+						<In Input="1c9fe96f-026f-41f9-31ffd7a6efa3c8c7"/>
+					</Co>
+					<Co K="AQ" U="1c9fe96f-029b-424a-01ffd7a6efa3c8c7"/>
 				</C>
 			</C>
 			<C Type="Page" V="171" U="1c9fe96e-0339-3ba8-ffffed57184a04d2" Title="Garage" WF="16384">
@@ -11569,18 +11589,6 @@ für die Beschattung (Opd &amp; Cld) ein und vergeben Sie einen Namen." Td="true
 					<IoData Cr="15ea0aa4-024c-3a72-ffffed57184a04d2" Pr="15ea0aa5-0127-3bc5-ffffed57184a04d2"/>
 					<Display Unit="&lt;v.1&gt;"/>
 				</C>
-				<C Type="OutputRef" V="171" U="1c9fe96e-0042-3684-ffffed57184a04d2" Title="Rollo Küche" Px="9600" Py="4512" Px2="11712" Py2="4704" Cl="238,238,238" Nio="2" Ref="1c9eca83-017b-5b04-ffff504f94a22679" WF="16384" LinkRefType="63">
-					<Co K="AI" Nc="1" U="1c9fe96e-0042-3682-00ff4d2809bf80c0">
-						<In Input="1c9fe96e-0042-3678-27ff4d2809bf80c0"/>
-					</Co>
-					<Co K="AQ" U="1c9fe96e-0042-3683-01ff4d2809bf80c0"/>
-				</C>
-				<C Type="OutputRef" V="171" U="1c9fe96e-0064-368b-ffffed57184a04d2" Title="Rollo Küche" Px="9600" Py="4320" Px2="11712" Py2="4512" Cl="238,238,238" Nio="2" Ref="1c9eca83-017b-5b07-ffff504f94a22679" WF="16384" LinkRefType="63">
-					<Co K="AI" Nc="1" U="1c9fe96e-0064-3689-00ff4d2809bf80c0">
-						<In Input="1c9fe96e-0042-3677-26ff4d2809bf80c0"/>
-					</Co>
-					<Co K="AQ" U="1c9fe96e-0064-368a-01ff4d2809bf80c0"/>
-				</C>
 				<C Type="OutputRef" V="171" U="1c9fec9f-00f8-a086-ffffed57184a04d2" Title="Steckdose Dunstabzug" Px="9600" Py="5952" Px2="11712" Py2="6144" Cl="238,238,238" Nio="2" Ref="1c9eca94-03b7-5b53-ffff504f94a22679" WF="16384" LinkRefType="63">
 					<Co K="AI" Nc="1" U="1c9fec9f-00f8-a084-00ffe382b16c1290">
 						<In Input="1c9fec8a-00cb-46e9-05ff28d67d283412"/>
@@ -11622,6 +11630,18 @@ für die Beschattung (Opd &amp; Cld) ein und vergeben Sie einen Namen." Td="true
 						<In Input="1c9fe96d-03d8-35ae-32ffb4e94b141767"/>
 					</Co>
 					<Co K="AQ" U="1db90786-02b9-44f4-01ff2983ca27e8c9"/>
+				</C>
+				<C Type="OutputRef" V="171" U="1c9fe96e-0042-3684-ffffed57184a04d2" Title="Rollo Küche" Px="9600" Py="4512" Px2="11712" Py2="4704" Cl="238,238,238" Nio="2" Ref="1c9eca83-017b-5b04-ffff504f94a22679" WF="16384" LinkRefType="63">
+					<Co K="AI" Nc="1" U="1c9fe96e-0042-3682-00ff4d2809bf80c0">
+						<In Input="1c9fe96e-0042-3678-27ff4d2809bf80c0"/>
+					</Co>
+					<Co K="AQ" U="1c9fe96e-0042-3683-01ff4d2809bf80c0"/>
+				</C>
+				<C Type="OutputRef" V="171" U="1c9fe96e-0064-368b-ffffed57184a04d2" Title="Rollo Küche" Px="9600" Py="4320" Px2="11712" Py2="4512" Cl="238,238,238" Nio="2" Ref="1c9eca83-017b-5b07-ffff504f94a22679" WF="16384" LinkRefType="63">
+					<Co K="AI" Nc="1" U="1c9fe96e-0064-3689-00ff4d2809bf80c0">
+						<In Input="1c9fe96e-0042-3677-26ff4d2809bf80c0"/>
+					</Co>
+					<Co K="AQ" U="1c9fe96e-0064-368a-01ff4d2809bf80c0"/>
 				</C>
 			</C>
 			<C Type="Page" V="171" U="1c9fe96e-01ab-38f7-ffffed57184a04d2" Title="Schlafzimmer" WF="16384">
@@ -12232,18 +12252,6 @@ Beachten Sie, dass Sie hierfür einen aktiven Wetterservice benötigen!" Td="tru
 					<IoData Cr="15ea0aa4-024c-3a72-ffffed57184a04d2" Pr="15ea0aa5-012a-3bd7-ffffed57184a04d2"/>
 					<Display Unit="&lt;v.1&gt;"/>
 				</C>
-				<C Type="OutputRef" V="171" U="1c9fe96e-0255-3a6f-ffffed57184a04d2" Title="Stell Schlafen" Px="9600" Py="5472" Px2="11712" Py2="5664" Cl="238,238,238" Nio="2" Ref="1c9ecad2-0390-5bb9-ffff504f94a22679" WF="147456" LinkRefType="63">
-					<Co K="AI" Nc="1" U="1c9fe96e-0255-3a6d-00ff299ab54d3905">
-						<In Input="1c9fe96e-024c-3a47-20ffe6fe4c91637b"/>
-					</Co>
-					<Co K="AQ" U="1c9fe96e-0255-3a6e-01ff299ab54d3905"/>
-				</C>
-				<C Type="OutputRef" V="171" U="1c9fe96e-0279-3ab4-ffffed57184a04d2" Title="Rollo Schlafen" Px="9600" Py="1152" Px2="11712" Py2="1344" Cl="238,238,238" Nio="2" Ref="1c9eca94-03b7-5b50-ffff504f94a22679" WF="16384" LinkRefType="63">
-					<Co K="AI" Nc="1" U="1c9fe96e-0279-3ab2-00ff299ab54d3905">
-						<In Input="1c9fe96e-025b-3aa1-27ff299ab54d3905"/>
-					</Co>
-					<Co K="AQ" U="1c9fe96e-0279-3ab3-01ff299ab54d3905"/>
-				</C>
 				<C Type="OutputRef" V="171" U="1c9fe96e-025b-3aad-ffffed57184a04d2" Title="Rollo Schlafen" Px="9600" Py="960" Px2="11712" Py2="1152" Cl="238,238,238" Nio="2" Ref="1c9eca94-03b7-5b4d-ffff504f94a22679" WF="16384" LinkRefType="63">
 					<Co K="AI" Nc="1" U="1c9fe96e-025b-3aab-00ff299ab54d3905">
 						<In Input="1c9fe96e-025b-3aa0-26ff299ab54d3905"/>
@@ -12297,6 +12305,18 @@ Beachten Sie, dass Sie hierfür einen aktiven Wetterservice benötigen!" Td="tru
 						<In Input="1c9fe96e-01ba-3984-32ff36c013b6a82f"/>
 					</Co>
 					<Co K="AQ" U="1c9fe96e-01d7-39d1-01ff36c013b6a82f"/>
+				</C>
+				<C Type="OutputRef" V="171" U="1c9fe96e-0255-3a6f-ffffed57184a04d2" Title="Stell Schlafen" Px="9600" Py="5472" Px2="11712" Py2="5664" Cl="238,238,238" Nio="2" Ref="1c9ecad2-0390-5bb9-ffff504f94a22679" WF="147456" LinkRefType="63">
+					<Co K="AI" Nc="1" U="1c9fe96e-0255-3a6d-00ff299ab54d3905">
+						<In Input="1c9fe96e-024c-3a47-20ffe6fe4c91637b"/>
+					</Co>
+					<Co K="AQ" U="1c9fe96e-0255-3a6e-01ff299ab54d3905"/>
+				</C>
+				<C Type="OutputRef" V="171" U="1c9fe96e-0279-3ab4-ffffed57184a04d2" Title="Rollo Schlafen" Px="9600" Py="1152" Px2="11712" Py2="1344" Cl="238,238,238" Nio="2" Ref="1c9eca94-03b7-5b50-ffff504f94a22679" WF="16384" LinkRefType="63">
+					<Co K="AI" Nc="1" U="1c9fe96e-0279-3ab2-00ff299ab54d3905">
+						<In Input="1c9fe96e-025b-3aa1-27ff299ab54d3905"/>
+					</Co>
+					<Co K="AQ" U="1c9fe96e-0279-3ab3-01ff299ab54d3905"/>
 				</C>
 			</C>
 			<C Type="Page" V="171" U="1c9fe970-0027-447d-ffffed57184a04d2" Title="Technikraum" WF="16384">
@@ -12674,18 +12694,6 @@ Bitte verbinden Sie die Ausgänge" Td="true"/>
 				<C Type="Text" V="171" U="1c9fe970-00d7-45c1-ffffed57184a04d2" Title="To-do" Px="3360" Py="10176" Px2="9304" Py2="10764" Cl="255,200,100" WF="16384" Text="Auto-Konfiguration
 Bitte stellen Sie die Himmelsrichtung (Dir) und, falls notwendig, Fahrzeiten
 für die Beschattung (Opd &amp; Cld) ein und vergeben Sie einen Namen." Td="true"/>
-				<C Type="OutputRef" V="171" U="1d9d527f-01e2-0b93-ffffed57184a04d2" Title="NAS" Px="9600" Py="6720" Px2="11712" Py2="6912" Cl="238,238,238" Nio="2" Ref="1d9d5221-0081-f3de-ffffed57184a04d2" WF="16384" LinkRefType="74">
-					<Co K="AI" Nc="1" U="1d9d527f-01e2-0b91-00ff349b5d25d329">
-						<In Input="1d9d5290-01cc-5c7e-05ffdf798b24967b"/>
-					</Co>
-					<Co K="AQ" U="1d9d527f-01e2-0b92-01ff349b5d25d329"/>
-				</C>
-				<C Type="OutputRef" V="171" U="1c9fe970-0069-4579-ffffed57184a04d2" Title="Stell Technik" Px="9600" Py="2880" Px2="11712" Py2="3072" Cl="238,238,238" Nio="2" Ref="1c9ecad2-0390-5bc5-ffff504f94a22679" WF="147456" LinkRefType="63">
-					<Co K="AI" Nc="1" U="1c9fe970-0069-4577-00ff597db745598f">
-						<In Input="1c9fe970-005c-4553-20ff4f885e477a8b"/>
-					</Co>
-					<Co K="AQ" U="1c9fe970-0069-4578-01ff597db745598f"/>
-				</C>
 				<C Type="OutputRef" V="171" U="1c9fe970-00c6-45be-ffffed57184a04d2" Title="Rollo Technik" Px="9600" Py="1056" Px2="11712" Py2="1248" Cl="238,238,238" Nio="2" Ref="1c9eca83-017c-5b13-ffff504f94a22679" WF="147456" LinkRefType="63">
 					<Co K="AI" Nc="1" U="1c9fe970-00c6-45bc-00ff597db745598f">
 						<In Input="1c9fe970-0071-45aa-26ff597db745598f"/>
@@ -12703,6 +12711,18 @@ für die Beschattung (Opd &amp; Cld) ein und vergeben Sie einen Namen." Td="true
 						<In Input="1c9fe970-003a-44e6-2fffc61f87643e50"/>
 					</Co>
 					<Co K="AQ" U="1c9fe970-0051-451c-01ffc61f87643e50"/>
+				</C>
+				<C Type="OutputRef" V="171" U="1d9d527f-01e2-0b93-ffffed57184a04d2" Title="NAS" Px="9600" Py="6720" Px2="11712" Py2="6912" Cl="238,238,238" Nio="2" Ref="1d9d5221-0081-f3de-ffffed57184a04d2" WF="16384" LinkRefType="74">
+					<Co K="AI" Nc="1" U="1d9d527f-01e2-0b91-00ff349b5d25d329">
+						<In Input="1d9d5290-01cc-5c7e-05ffdf798b24967b"/>
+					</Co>
+					<Co K="AQ" U="1d9d527f-01e2-0b92-01ff349b5d25d329"/>
+				</C>
+				<C Type="OutputRef" V="171" U="1c9fe970-0069-4579-ffffed57184a04d2" Title="Stell Technik" Px="9600" Py="2880" Px2="11712" Py2="3072" Cl="238,238,238" Nio="2" Ref="1c9ecad2-0390-5bc5-ffff504f94a22679" WF="147456" LinkRefType="63">
+					<Co K="AI" Nc="1" U="1c9fe970-0069-4577-00ff597db745598f">
+						<In Input="1c9fe970-005c-4553-20ff4f885e477a8b"/>
+					</Co>
+					<Co K="AQ" U="1c9fe970-0069-4578-01ff597db745598f"/>
 				</C>
 			</C>
 			<C Type="Page" V="171" U="1c9fe96f-00d4-3e90-ffffed57184a04d2" Title="Terrasse" WF="16384">
@@ -12968,18 +12988,6 @@ für die Beschattung (Opd &amp; Cld) ein und vergeben Sie einen Namen." Td="true
 					<PSD As="-2" Ae="1380" Amin="1" Amax="4" Dmin="30" Dmax="180" V="20"/>
 					<Display Type="1" Unit="&lt;v.1&gt;"/>
 				</C>
-				<C Type="OutputRef" V="171" U="1c9fe96f-00f0-3f41-ffffed57184a04d2" Title="LED Spot RGBW Tree" Px="9600" Py="2880" Px2="11712" Py2="3072" Cl="238,238,238" Nio="2" Ref="1c9ed8af-0242-c761-ffff504f94a22679" WF="147456" Analog="true" LinkRefType="185">
-					<Co K="AI" Nc="1" U="1c9fe96f-00f0-3f3f-00ff33c2519dbf75">
-						<In Input="1c9fe96f-00e7-3f11-2fff33c2519dbf75"/>
-					</Co>
-					<Co K="AQ" U="1c9fe96f-00f0-3f40-01ff33c2519dbf75"/>
-				</C>
-				<C Type="OutputRef" V="171" U="1c9fed8f-02f5-b63f-ffffed57184a04d2" Title="Steckdose DK Terrasse" Px="9600" Py="6816" Px2="11712" Py2="7008" Cl="238,238,238" Nio="2" Ref="1c9eca94-03b7-5b59-ffff504f94a22679" WF="16384" LinkRefType="63">
-					<Co K="AI" Nc="1" U="1c9fed8f-02f5-b63d-00ffc229f5fa5fc7">
-						<In Input="1c9fed7d-034e-5c7a-05ffab93a20e3107"/>
-					</Co>
-					<Co K="AQ" U="1c9fed8f-02f5-b63e-01ffc229f5fa5fc7"/>
-				</C>
 				<C Type="OutputRef" V="171" U="1c9fe96f-010e-3fb8-ffffed57184a04d2" Title="LS Terrasse" Px="9600" Py="1248" Px2="11712" Py2="1440" Cl="238,238,238" Nio="2" Ref="1c9ecb6c-0144-73cd-ffffed57184a04d2" WF="147456" Analog="true" LinkRefType="216">
 					<Co K="AI" Nc="1" U="1c9fe96f-010e-3fb6-00ffbc2b2880fcb0">
 						<In Input="1c9fe96f-010d-3fa9-20ffbc2b2880fcb0"/>
@@ -13003,6 +13011,18 @@ für die Beschattung (Opd &amp; Cld) ein und vergeben Sie einen Namen." Td="true
 						<In Input="1c9fe96f-00e7-3f11-2fff33c2519dbf75"/>
 					</Co>
 					<Co K="AQ" U="1c9fe96f-00f6-3f46-01ff33c2519dbf75"/>
+				</C>
+				<C Type="OutputRef" V="171" U="1c9fe96f-00f0-3f41-ffffed57184a04d2" Title="LED Spot RGBW Tree" Px="9600" Py="2880" Px2="11712" Py2="3072" Cl="238,238,238" Nio="2" Ref="1c9ed8af-0242-c761-ffff504f94a22679" WF="147456" Analog="true" LinkRefType="185">
+					<Co K="AI" Nc="1" U="1c9fe96f-00f0-3f3f-00ff33c2519dbf75">
+						<In Input="1c9fe96f-00e7-3f11-2fff33c2519dbf75"/>
+					</Co>
+					<Co K="AQ" U="1c9fe96f-00f0-3f40-01ff33c2519dbf75"/>
+				</C>
+				<C Type="OutputRef" V="171" U="1c9fed8f-02f5-b63f-ffffed57184a04d2" Title="Steckdose DK Terrasse" Px="9600" Py="6816" Px2="11712" Py2="7008" Cl="238,238,238" Nio="2" Ref="1c9eca94-03b7-5b59-ffff504f94a22679" WF="16384" LinkRefType="63">
+					<Co K="AI" Nc="1" U="1c9fed8f-02f5-b63d-00ffc229f5fa5fc7">
+						<In Input="1c9fed7d-034e-5c7a-05ffab93a20e3107"/>
+					</Co>
+					<Co K="AQ" U="1c9fed8f-02f5-b63e-01ffc229f5fa5fc7"/>
 				</C>
 			</C>
 			<C Type="Page" V="171" U="1d354827-03a4-e700-ffffed57184a04d2" Title="Türschloss" WF="16384">
@@ -13857,18 +13877,6 @@ Bitte konfigurieren Sie die Lautstärkeschwellen der Präsenzmelder" Td="true"/>
 				<C Type="Text" V="171" U="1c9fe96d-028e-3397-ffffed57184a04d2" Title="To-do" Px="1152" Py="13056" Px2="7386" Py2="13644" Cl="255,200,100" WF="16384" Text="Auto-Konfiguration
 Bitte stellen Sie die Himmelsrichtung (Dir) und, falls notwendig, Fahrzeiten
 für die Beschattung (Opd &amp; Cld) ein und vergeben Sie einen Namen." Td="true"/>
-				<C Type="OutputRef" V="171" U="1c9fe96d-01ec-3254-ffffed57184a04d2" Title="Spots Wohnen" Px="9600" Py="4896" Px2="11712" Py2="5088" Cl="238,238,238" Nio="2" Ref="1c9ed220-0075-acb4-ffffed57184a04d2" WF="147456" Analog="true" LinkRefType="196">
-					<Co K="AI" Nc="1" U="1c9fe96d-01ec-3252-00ff1b1bd623b1d4">
-						<In Input="1c9fe96d-01e6-321b-2fff1b1bd623b1d4"/>
-					</Co>
-					<Co K="AQ" U="1c9fe96d-01ec-3253-01ff1b1bd623b1d4"/>
-				</C>
-				<C Type="OutputRef" V="171" U="1c9fe96d-01e0-31ae-ffffed57184a04d2" Title="Zeit" Cl="238,238,238" Nio="2" Ref="1c9ed3b0-0352-2dd1-ffff504f94a22679" WF="20480" Analog="true" LinkRefType="185">
-					<Co K="AI" Nc="1" U="1c9fe96d-01e0-31ac-00ff1b1bd623b1d4">
-						<In Input="1c9fe96d-01d5-3190-11ff1b1bd623b1d4" Hidden="true"/>
-					</Co>
-					<Co K="AQ" U="1c9fe96d-01e0-31ad-01ff1b1bd623b1d4"/>
-				</C>
 				<C Type="OutputRef" V="171" U="1cf8a559-0040-654d-ffffed57184a04d2" Title="Stehlampe" Px="9600" Py="5280" Px2="11712" Py2="5472" Cl="238,238,238" Nio="2" Ref="1cf8a4f2-00ce-9d7f-ffffed57184a04d2" WF="147456" LinkRefType="74">
 					<Co K="AI" Nc="1" U="1cf8a559-0040-654b-00ff4f85e2fc8de9">
 						<In Input="1c9fe96d-01e6-321d-31ff1b1bd623b1d4"/>
@@ -13965,6 +13973,18 @@ für die Beschattung (Opd &amp; Cld) ein und vergeben Sie einen Namen." Td="true
 					</Co>
 					<Co K="AQ" U="1cf8a3c1-0238-a8a4-01ff25598555d6b2"/>
 				</C>
+				<C Type="OutputRef" V="171" U="1c9fe96d-01ec-3254-ffffed57184a04d2" Title="Spots Wohnen" Px="9600" Py="4896" Px2="11712" Py2="5088" Cl="238,238,238" Nio="2" Ref="1c9ed220-0075-acb4-ffffed57184a04d2" WF="147456" Analog="true" LinkRefType="196">
+					<Co K="AI" Nc="1" U="1c9fe96d-01ec-3252-00ff1b1bd623b1d4">
+						<In Input="1c9fe96d-01e6-321b-2fff1b1bd623b1d4"/>
+					</Co>
+					<Co K="AQ" U="1c9fe96d-01ec-3253-01ff1b1bd623b1d4"/>
+				</C>
+				<C Type="OutputRef" V="171" U="1c9fe96d-01e0-31ae-ffffed57184a04d2" Title="Zeit" Cl="238,238,238" Nio="2" Ref="1c9ed3b0-0352-2dd1-ffff504f94a22679" WF="20480" Analog="true" LinkRefType="185">
+					<Co K="AI" Nc="1" U="1c9fe96d-01e0-31ac-00ff1b1bd623b1d4">
+						<In Input="1c9fe96d-01d5-3190-11ff1b1bd623b1d4" Hidden="true"/>
+					</Co>
+					<Co K="AQ" U="1c9fe96d-01e0-31ad-01ff1b1bd623b1d4"/>
+				</C>
 			</C>
 			<C Type="Page" V="171" U="1dddc2a9-0219-3ae7-ffffed57184a04d2" Title="XMas" WF="16384">
 				<IoData Cr="15ea0aa4-0243-3a46-ffffed57184a04d2" Pr="15ea0aa5-0122-3bad-ffffed57184a04d2"/>
@@ -14058,18 +14078,6 @@ für die Beschattung (Opd &amp; Cld) ein und vergeben Sie einen Namen." Td="true
 					<PSD As="-2" Ae="1380" Amin="1" Amax="4" Dmin="30" Dmax="180" V="20"/>
 					<Display Type="1" Unit="&lt;v.1&gt;"/>
 				</C>
-				<C Type="OutputRef" V="171" U="1dddcab6-0300-9b14-ffffed57184a04d2" Title="XMas6" Px="5856" Py="8928" Px2="7968" Py2="9120" Cl="238,238,238" Nio="2" Ref="1dddca9b-01c6-be89-ffffed57184a04d2" WF="16384" LinkRefType="74">
-					<Co K="AI" Nc="1" U="1dddcab6-0300-9b12-00ffe3fe036698df">
-						<In Input="1dddcab9-0217-f374-ffff40f4a2261f15"/>
-					</Co>
-					<Co K="AQ" U="1dddcab6-0300-9b13-01ffe3fe036698df"/>
-				</C>
-				<C Type="OutputRef" V="171" U="1dddc868-02be-756f-ffffed57184a04d2" Title="XMas2" Px="5856" Py="3168" Px2="7968" Py2="3360" Cl="238,238,238" Nio="2" Ref="1dddc843-026a-99de-ffffed57184a04d2" WF="16384" LinkRefType="74">
-					<Co K="AI" Nc="1" U="1dddc868-02be-756d-00ff0b257a00935a">
-						<In Input="1dddc86c-0282-cd5c-ffff4f7c3eca9ee6"/>
-					</Co>
-					<Co K="AQ" U="1dddc868-02be-756e-01ff0b257a00935a"/>
-				</C>
 				<C Type="OutputRef" V="171" U="1df82c15-0055-399e-ffffed57184a04d2" Title="XMas4" Px="5856" Py="6048" Px2="7968" Py2="6240" Cl="238,238,238" Nio="2" Ref="1df82bdc-00d8-2b41-ffffed57184a04d2" WF="16384" LinkRefType="74">
 					<Co K="AI" Nc="1" U="1df82c15-0055-399c-00ff8d88136f14eb">
 						<In Input="1df82c17-0395-93d7-ffff9d39301670f4"/>
@@ -14087,6 +14095,18 @@ für die Beschattung (Opd &amp; Cld) ein und vergeben Sie einen Namen." Td="true
 						<In Input="1de9f3d8-022b-972c-ffff7102f49eccb0"/>
 					</Co>
 					<Co K="AQ" U="1de9f3d3-0263-11c0-01ff27afada1f0af"/>
+				</C>
+				<C Type="OutputRef" V="171" U="1dddcab6-0300-9b14-ffffed57184a04d2" Title="XMas6" Px="5856" Py="8928" Px2="7968" Py2="9120" Cl="238,238,238" Nio="2" Ref="1dddca9b-01c6-be89-ffffed57184a04d2" WF="16384" LinkRefType="74">
+					<Co K="AI" Nc="1" U="1dddcab6-0300-9b12-00ffe3fe036698df">
+						<In Input="1dddcab9-0217-f374-ffff40f4a2261f15"/>
+					</Co>
+					<Co K="AQ" U="1dddcab6-0300-9b13-01ffe3fe036698df"/>
+				</C>
+				<C Type="OutputRef" V="171" U="1dddc868-02be-756f-ffffed57184a04d2" Title="XMas2" Px="5856" Py="3168" Px2="7968" Py2="3360" Cl="238,238,238" Nio="2" Ref="1dddc843-026a-99de-ffffed57184a04d2" WF="16384" LinkRefType="74">
+					<Co K="AI" Nc="1" U="1dddc868-02be-756d-00ff0b257a00935a">
+						<In Input="1dddc86c-0282-cd5c-ffff4f7c3eca9ee6"/>
+					</Co>
+					<Co K="AQ" U="1dddc868-02be-756e-01ff0b257a00935a"/>
 				</C>
 			</C>
 			<C Type="Page" V="171" U="1c9fe970-01f3-47c2-ffffed57184a04d2" Title="Zentral" WF="16384">
@@ -14897,18 +14917,6 @@ Der rechte obere Taster am Bett schaltet Nacht Schlafen (im Schlafzimmer)"/>
 						<StateText Valid="true" ValidV="true" Text="" TextV="0" Icon="00000000-0000-0000-0000000000000000" IcC="5292905"/>
 					</StateTexts>
 				</C>
-				<C Type="OutputRef" V="171" U="1ce24541-034e-87be-ffffed57184a04d2" Title="Zwei Stunden vor Sonnenuntergang" Px="9024" Py="10464" Px2="11136" Py2="10656" Cl="238,238,238" Nio="2" Ref="1ce2451e-00ba-261d-ffffed57184a04d2" WF="147456" LinkRefType="21">
-					<Co K="AI" Nc="1" U="1ce24541-034e-87bc-00ffc8820464beae">
-						<In Input="1ce25598-010b-954d-02ff21d02e461359"/>
-					</Co>
-					<Co K="AQ" U="1ce24541-034e-87bd-01ffc8820464beae"/>
-				</C>
-				<C Type="OutputRef" V="171" U="1c9fe970-021b-4838-ffffed57184a04d2" Title="Akustisches Klick-Signal" Cl="238,238,238" Nio="2" Ref="1c9fd79e-0215-754c-ffff504f94a22679" WF="20480" LinkRefType="174">
-					<Co K="AI" Nc="1" U="1c9fe970-021b-4836-00ffdf69491c7c41">
-						<In Input="1c9fe970-0219-47e1-13ffdf69491c7c41" Hidden="true"/>
-					</Co>
-					<Co K="AQ" U="1c9fe970-021b-4837-01ffdf69491c7c41"/>
-				</C>
 				<C Type="OutputRef" V="171" U="1c9fe970-021b-483e-ffffed57184a04d2" Title="Akustischer Alarm" Cl="238,238,238" Nio="2" Ref="1c9fd79e-0215-7546-ffff504f94a22679" WF="20480" LinkRefType="174">
 					<Co K="AI" Nc="1" U="1c9fe970-021b-483c-00ffdf69491c7c41">
 						<In Input="1c9fe970-0219-47e2-14ffdf69491c7c41" Hidden="true"/>
@@ -15077,6 +15085,18 @@ Der rechte obere Taster am Bett schaltet Nacht Schlafen (im Schlafzimmer)"/>
 						<In Input="1d867f78-03e6-887a-05ff2c0c82ca26e9"/>
 					</Co>
 					<Co K="AQ" U="1ce112bf-0229-62d6-01ff3de0b008d75a"/>
+				</C>
+				<C Type="OutputRef" V="171" U="1ce24541-034e-87be-ffffed57184a04d2" Title="Zwei Stunden vor Sonnenuntergang" Px="9024" Py="10464" Px2="11136" Py2="10656" Cl="238,238,238" Nio="2" Ref="1ce2451e-00ba-261d-ffffed57184a04d2" WF="147456" LinkRefType="21">
+					<Co K="AI" Nc="1" U="1ce24541-034e-87bc-00ffc8820464beae">
+						<In Input="1ce25598-010b-954d-02ff21d02e461359"/>
+					</Co>
+					<Co K="AQ" U="1ce24541-034e-87bd-01ffc8820464beae"/>
+				</C>
+				<C Type="OutputRef" V="171" U="1c9fe970-021b-4838-ffffed57184a04d2" Title="Akustisches Klick-Signal" Cl="238,238,238" Nio="2" Ref="1c9fd79e-0215-754c-ffff504f94a22679" WF="20480" LinkRefType="174">
+					<Co K="AI" Nc="1" U="1c9fe970-021b-4836-00ffdf69491c7c41">
+						<In Input="1c9fe970-0219-47e1-13ffdf69491c7c41" Hidden="true"/>
+					</Co>
+					<Co K="AQ" U="1c9fe970-021b-4837-01ffdf69491c7c41"/>
 				</C>
 			</C>
 			<C Type="Page" V="171" U="1dbbafcb-029e-a10c-ffffed57184a04d2" Title="Zentral 2" WF="16384">
@@ -15494,6 +15514,12 @@ Der rechte obere Taster am Bett schaltet Nacht Schlafen (im Schlafzimmer)"/>
 						<IoData Visu="true" Cr="15ea0aa4-0267-3ae8-ffffed57184a04d2" Pr="15ea0aa5-0145-3c85-ffffed57184a04d2" St="4"/>
 					</C>
 				</C>
+				<C Type="OutputRef" V="171" U="1da24336-0202-ab90-ffffed57184a04d2" Title="API Connector" Px="9600" Py="1632" Px2="11712" Py2="1824" Cl="238,238,238" Nio="2" Ref="1c9ecbaf-01f4-7dcb-ffffed57184a04d2" Text="true" LinkRefType="136">
+					<Co K="AI" Nc="1" U="1da24336-0202-ab8e-00ff9011e64d93bc">
+						<In Input="1da24336-0203-aba5-0effe9c70c561b11"/>
+					</Co>
+					<Co K="AQ" U="1da24336-0202-ab8f-01ff9011e64d93bc"/>
+				</C>
 				<C Type="OutputRef" V="171" U="1dbbb15f-015a-75d6-ffffed57184a04d2" Title="Ring" Px="5952" Py="7680" Px2="8064" Py2="7872" Cl="238,238,238" Nio="2" Ref="1da67590-0135-609a-ffffed57184a04d2" WF="16384" LinkRefType="74">
 					<Co K="AI" Nc="1" U="1dbbb15f-015a-75d4-00ff069f5ac422e6">
 						<In Input="1dc7612b-01ad-179a-ffff835c4172ad42" CF="true"/>
@@ -15505,12 +15531,6 @@ Der rechte obere Taster am Bett schaltet Nacht Schlafen (im Schlafzimmer)"/>
 						<In Input="1c9fe970-0219-47df-11ffdf69491c7c41" CF="true"/>
 					</Co>
 					<Co K="AQ" U="1c9fe970-021b-492a-01ffdf69491c7c41"/>
-				</C>
-				<C Type="OutputRef" V="171" U="1da24336-0202-ab90-ffffed57184a04d2" Title="API Connector" Px="9600" Py="1632" Px2="11712" Py2="1824" Cl="238,238,238" Nio="2" Ref="1c9ecbaf-01f4-7dcb-ffffed57184a04d2" Text="true" LinkRefType="136">
-					<Co K="AI" Nc="1" U="1da24336-0202-ab8e-00ff9011e64d93bc">
-						<In Input="1da24336-0203-aba5-0effe9c70c561b11"/>
-					</Co>
-					<Co K="AQ" U="1da24336-0202-ab8f-01ff9011e64d93bc"/>
 				</C>
 			</C>
 			<C Type="Page" V="171" U="1c9fe970-0206-47c4-ffffed57184a04d2" Title="Zentral Heizung" WF="16384">
